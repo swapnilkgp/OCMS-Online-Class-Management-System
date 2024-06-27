@@ -1,0 +1,46 @@
+.forma {
+    background: rgb(249, 242, 248);
+    max-width: 800px;
+    margin: 9rem auto;
+    margin-bottom: 4rem;
+    padding: 2rem 2rem;
+    border-radius: var(--radius);
+}
+
+.forma input {
+    background: var(--clr-grey-9);
+    border-color: transparent;
+    border-radius: var(--radius);
+    padding: 0.5rem 0.5rem;
+}
+
+.forma-control {
+    padding: 0;
+    margin: 0.5rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.forma button {
+    display: inline-block;
+    background: var(--primary-800);
+    color: var(--clr-white);
+    border-color: transparent;
+    margin-top: 1rem;
+    letter-spacing: var(--spacing);
+    padding: 0.6rem 1.4rem;
+    text-transform: capitalize;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+.forma h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-800);
+    font-weight: 600;
+}
+
+.forma p{
+    color: rgb(35, 35, 140);
+}

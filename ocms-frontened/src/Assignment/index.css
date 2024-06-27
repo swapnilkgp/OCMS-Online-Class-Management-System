@@ -1,0 +1,36 @@
+.formd {
+    background: var(--clr-white);
+    max-width: 800px;
+    margin: 0rem auto;
+    margin-bottom: 4rem;
+    padding: 0.5rem 2rem;
+    border-radius: var(--radius);
+}
+
+.formd input {
+    background: var(--clr-white);
+    border-color: transparent;
+    border-radius: var(--radius);
+    padding: 0.5rem 0.5rem;
+}
+
+.formd-control {
+    padding: 0;
+    margin: 0.5rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.formd button {
+    display: inline-block;
+    background: var(--clr-black);
+    color: var(--clr-white);
+    border-color: transparent;
+    margin-top: 1rem;
+    letter-spacing: var(--spacing);
+    padding: 0.15rem 0.25rem;
+    text-transform: capitalize;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
